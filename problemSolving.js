@@ -29,6 +29,26 @@ function getRent(days) {
 
 }
 
+/* find largest name in array ? */
+
 const myDays = 18;
 const myDaysRent = getRent(myDays);
 console.log('My total rent is ', myDaysRent);
+
+
+
+function longestStringInArray(friends) {
+    let longestName = "";
+    for (var i = 0; i < friends.length; i++) {
+        const index = i;
+        const element = friends[index];
+        if (longestName.length < element.length) {
+            longestName = element;
+        }
+    }
+    return longestName;
+}
+
+const myFriends = ['najmul', 'shiam', 'sojib', 'toukir', 'robiulya',];
+const myBigFriend = longestStringInArray(myFriends);
+console.log(myBigFriend);
