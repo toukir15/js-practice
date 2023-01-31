@@ -8,7 +8,6 @@ function getSum(numbers) {
         }
     }
     return sum;
-
 }
 
 const myNumbers = [50, 52, 68, 25, 45, 85, 84];
