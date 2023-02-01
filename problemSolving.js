@@ -64,3 +64,43 @@ function cToF(c) {
 const myC = 25;
 const myCtoF = cToF(myC);
 console.log(myCtoF);
+
+// fahrenheit to celsius
+
+function fahrenheitToCelsius(fahrenheit) {
+    const celsius = (fahrenheit - 32) * 5 / 9;
+    return celsius;
+}
+
+const myFahrenheit = 50;
+const myFahrenheitToCelsius = fahrenheitToCelsius(myFahrenheit);
+console.log(myFahrenheitToCelsius);
+
+
+// grading system
+function grade(number) {
+    if (number >= 80 && number <= 100) {
+        console.log('You get A+');
+    }
+    else if (number >= 70 && number <= 79) {
+        console.log('You get A');
+    }
+    else if (number >= 60 && number <= 69) {
+        console.log('You get B');
+    }
+    else if (number >= 50 && number <= 59) {
+        console.log('You get C');
+    }
+    else if (number >= 40 && number <= 49) {
+        console.log('You get D');
+    }
+    else if (number >= 33 && number <= 39) {
+        console.log('You get E');
+    }
+    else {
+        console.log('You are failed');
+    }
+}
+
+const myNumber = 50;
+const myNumberGrade = grade(myNumber);
