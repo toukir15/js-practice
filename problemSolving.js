@@ -104,3 +104,26 @@ function grade(number) {
 
 const myNumber = 50;
 const myNumberGrade = grade(myNumber);
+
+// reverse string 
+function reverseString(str) {
+    let result = '';
+    for (let i = str.length - 1; i >= 0; i--) {
+        result += str[i]
+    }
+    return result;
+}
+console.log(reverseString('rikuoT '));
+
+const solution = (letter) => {
+    //Write Your solution Here
+
+    if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
+        return letter;
+    }
+    else {
+        return letter;
+    }
+}
+
+solution('a')
