@@ -16,3 +16,13 @@ const third = 90;
 const topMark = largestNumber(first, second, third);
 console.log(topMark);
 
+// find largest number using Math 
+function findLargest(first, second, third) {
+    const largest = Math.max(first, second, third);
+    return largest;
+}
+const number1 = 50;
+const number2 = 60;
+const number3 = 90;
+const numberLargest = findLargest(number1, number2, number3);
+console.log(numberLargest);
