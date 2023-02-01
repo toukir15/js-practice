@@ -52,3 +52,15 @@ function longestStringInArray(friends) {
 const myFriends = ['najmul', 'shiam', 'sojib', 'toukir', 'robiulya',];
 const myBigFriend = longestStringInArray(myFriends);
 console.log(myBigFriend);
+
+
+// celsius to fahrenheit
+
+function cToF(c) {
+    const f = c * 9 / 5 + 32;
+    return f;
+}
+
+const myC = 25;
+const myCtoF = cToF(myC);
+console.log(myCtoF);
