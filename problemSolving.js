@@ -126,4 +126,4 @@ const solution = (letter) => {
     }
 }
 
-solution('a')
+console.log(solution('a'));
